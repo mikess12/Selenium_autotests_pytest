@@ -4,7 +4,7 @@ import time
 
 def test_setup():
     global browser
-    browser = webdriver.Chrome("C:\\Users\\trcmi\\Desktop\\Testing\\Курс Медани\\sts_tests\\chromedriver.exe")
+    browser = webdriver.Chrome("C:\\Users\\trcmi\\Desktop\\Testing\\Medani\\sts_tests\\chromedriver.exe")
 
 def test_login():
     browser.get('https://sandbox.synctoskill.com/')
