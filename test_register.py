@@ -9,7 +9,7 @@ def test_setup():
 
 @allure.severity(allure.severity_level.BLOCKER)
 def test_register():
-    browser.get('https://sandbox.synctoskill.com/')
+    browser.get('https://synctoskill.com/')
     browser.maximize_window()
     browser.find_elements("xpath", '//a[@class="nav-link text-dark"]')[1].click()
     browser.find_elements("xpath", '//input[@class="form-control"]')[0].send_keys('Mikhail25')
