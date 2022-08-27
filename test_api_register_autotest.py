@@ -18,7 +18,7 @@ def test_api_register():
   
     }
     
-    response = requests.post("https://sandbox.synctoskill.com/api/AccountApi/register", headers=headers, json=data)
+    response = requests.post("https://synctoskill.com/api/AccountApi/register", headers=headers, json=data)
     assert response.status_code == 200
     print("status code is:" + str(response.status_code))
 
