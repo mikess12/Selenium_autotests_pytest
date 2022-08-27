@@ -7,7 +7,7 @@ def test_setup():
     browser = webdriver.Chrome("C:\\Users\\trcmi\\Desktop\\Testing\\Medani\\sts_tests\\chromedriver.exe")
 
 def test_login():
-    browser.get('https://sandbox.synctoskill.com/')
+    browser.get('https://synctoskill.com/')
     browser.maximize_window()
     browser.find_elements("xpath", '//a[@class="nav-link text-dark"]')[0].click() #кликаем на кнопку логина
     browser.find_element("name", 'Email').send_keys('sfanat@yandex.ru')   #вводим почту
