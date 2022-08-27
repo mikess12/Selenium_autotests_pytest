@@ -17,7 +17,7 @@ data = {
 "password": config["password"]
 }
     
-response = requests.post("https://sandbox.synctoskill.com/api/AccountApi/login", headers=headers, json=data)
+response = requests.post("https://synctoskill.com/api/AccountApi/login", headers=headers, json=data)
 assert response.status_code == 200
 print("status code is:" + str(response.status_code))
 
