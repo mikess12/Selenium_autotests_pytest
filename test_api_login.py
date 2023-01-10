@@ -18,7 +18,7 @@ def test_api_login():
 
     }
         
-    response = requests.post("https://synctoskill.com/api/AccountApi/login", headers=headers, json=data)
+    response = requests.post("https://s.com/api/AccountApi/login", headers=headers, json=data)
     assert response.status_code == 200
     print("status code is:" + str(response.status_code))
 
